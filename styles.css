@@ -106,7 +106,7 @@ section button {
     color: rgb(6, 6, 6);
     background: #ffffff;
     font-size: 16px;
-    border: none;
+    border: 3px solid #f9004d;
     border-radius: 25px;
     height: 60px;
     width: 198px;

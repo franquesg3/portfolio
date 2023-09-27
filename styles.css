@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.caixa-principal {
+    height: 100vh;
+    width: 100%;
+    background-color: #1a8bb8;
+    background-image: url(./img/background.png);
+    background-size: cover;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+    font-size: 25px;
+}
+
+.portfolio {
+    color: #ffffff;
+    font-size: 45px;
+}
+
+.portfolio span {
+    color: #f9004d;
+}
+
+li {
+    color: white;
+    list-style: none;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 15px;
+    transition: 0.5s ease-in-out;
+}
+
+li:hover {
+    color: #f9004d;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.meu-nome {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+}
+
+h1 {
+    color: white;
+    font-size: 45px;
+
+}
+
+h1 span {
+    color: #f9004d;
+}
+
+.meu-nome h3 {
+    color: white;
+    font-size: 20px;
+
+}
+
+section {
+    display: flex;
+    align-items: center;
+    background-color: #110a71;
+    padding: 50px 15%;
+
+}
+
+section img {
+    height: 300px;
+    border-radius: 100%;
+    border: 2px solid #f9004d;
+    margin-right: 50px;
+}
+
+section div h2 {
+    color: white;
+    font-size: 75px;
+    margin-top: 30px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+section div p {
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+section button {
+    color: white;
+    background: #f9004d;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    height: 60px;
+    width: 198px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+section div button:hover {
+    background-color: black;
+    border: 3px solid #f9004d;
+}
+
+.projetos {
+    background-color: #1a8bb8;
+    padding-top: 50px;
+    padding-bottom: 100px;
+        
+}
+
+.projetos h2 {
+    color: white;
+    font-size: 55px;
+    text-align: center;
+    padding-top: 100px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+h2:hover {
+    color: #f9004d;
+}
+
+.card {
+    background-color: #ffffff;
+    height: 365px;
+    width: 335px;
+    border-radius: 20px;
+    padding: 20px 35px;
+    text-align: center;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.card img {
+    height: 100px;
+}
+
+.card h5 {
+    color: rgb(0, 0, 0);
+    font-size: 24px;  
+}
+
+.card p {
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card a {
+    background-color: #f9004d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.card a:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    color: black;
+}
+
+.card-projetos {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: #110a71;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer h5 {
+    color: white;
+    font-size: 30px;
+
+}
+
+footer p {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 14px;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+.social img {
+    height: 25px;
+    border-radius: 50%;
+}
+
+.social a {
+    background: #f9004d;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.social a:hover {
+    transform: scale(1.3);
+}

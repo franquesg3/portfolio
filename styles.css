@@ -114,6 +114,10 @@ section button {
     transition: 0.5s ease-in-out;
 }
 
+section button a {
+    text-decoration: none;
+}
+
 section div button:hover {
     background-color: black;
     border: 3px solid #f9004d;
